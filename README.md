@@ -11,7 +11,7 @@ Usage - CPU:
   
 Usage - GPU:
 
-  TimingGPU timerGPU;
-  timerGPU.StartCounter();
-  [GPU instructions to time]
-  printf("Timing = %f\n", timerGPU.GetCounter());
+    TimingGPU timerGPU;
+    timerGPU.StartCounter();
+    [GPU instructions to time]
+    printf("Timing = %f\n", timerGPU.GetCounter());
